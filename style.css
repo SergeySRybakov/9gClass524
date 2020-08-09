@@ -920,7 +920,7 @@ footer {
         width: 95%;
     }
     .galary {
-        height: 35%;
+        height: 40vh;
         width: 100%;
     }
     .CT_img {
@@ -968,7 +968,7 @@ footer {
 
 @media (max-width: 321px) {
     .galary {
-        height: 55vh;
+        height: 45vh;
     }
     header {
         padding-top: 10px;
