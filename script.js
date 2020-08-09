@@ -79,7 +79,7 @@ $(function() {
 });
 
 
-
+/*
     SaytBlue.onclick = function() {
         
         document.getElementById('body').style.backgroundColor = 'rgb(200, 203, 240)';
@@ -97,15 +97,7 @@ $(function() {
         document.getElementById('timestudy').style.borderColor = 'rgb(125, 125, 255)';
         document.getElementById('wkend').style.borderColor = 'rgb(125, 125, 255)';
 
-        //document.getElementsByClassName('side-panel').style.borderColor = 'rgb(137, 137, 255)';
-        //document.getElementByName('fixed').style.borderColor ='rgb(125, 125, 255)';
     };
-
-//SaytBlue.onclick = function(){
-//      localStorage.setItem('colors', document.getElementById('body').style.backgroundColor = 'rgb(200, 203, 240)')
-//};
-
-
     SaytGray.onclick = function() {
         document.getElementById('body').style.backgroundColor = 'rgb(190, 198, 207)';
         document.getElementById('header').style.backgroundImage = 'url(./img/background9.jpg)';
@@ -140,7 +132,7 @@ $(function() {
         document.getElementById('news_line3').style.backgroundColor = 'rgb(194, 193, 193)';
     };
 
-
+*/
     //alert('Всем привет, надеюсь, сайт Вам понравится. Если что не так, сообщайте, исправлю, поменяю и т.п. Также сообщайте пожалуйста об ошибках, их я тоже исправлю, особенно могут возникнуть проблемы с мобильной версией сайта. Спасибо за посещение сайта!');
 
 
