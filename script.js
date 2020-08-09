@@ -47,7 +47,7 @@ $(function() {
     });
 
 });
-
+/*
 $(function() {
 
 
@@ -77,7 +77,7 @@ $(function() {
     });
 
 });
-
+*/
 
 /*
     SaytBlue.onclick = function() {
