@@ -17,6 +17,29 @@
     <div class="pre_intro" id="introJS">
         <p class="pre" id="preJS">Гимназия №524 9г класс</p>
 
+
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Меню</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#news" data-scroll="#news">
+                    Новости
+                </a>
+                <a href="#CT" data-scroll="#CT">
+                    Наш классный руководитель
+                </a>
+                <a href="#OT" data-scroll="#OT">
+                    Наши учителя
+                </a>
+                <a href="#extra" data-scroll="#extra">
+                    Время дополнительных занятий
+                </a>
+                <a href="#galary" data-scroll="#galary">
+                    Фото-галерея
+                </a>
+            </div>
+        </div>
+
+
         <nav class="nav_list" id="nav_listJS">
 
         
@@ -41,8 +64,15 @@
                 Фото-галерея
             </a>
             
-
-            <input type="checkbox" id="side-checkbox" />
+        </nav>
+        
+        <!--
+            <div class="burger">
+            <span class="burger_item">Menu</span>
+        </div>
+    -->
+   
+    <input type="checkbox" id="side-checkbox" />
             <div class="side-panel" id="side-panel">
                 <label class="side-button-2" for="side-checkbox">+</label>
                 <div class="side-title">Темы сайта:</div>
@@ -52,20 +82,13 @@
                 <button class="colorSaytWhite bt_colors" id="SaytWhite">Светлая тема</button>
                 <p>P.s. Темы будут переделываться, пока в них много недоработок...</p>
             </div>
-            <div class="side-button-1-wr">
+            <div class="side-button-1-wr" id="side_button_wr">
                 <label class="side-button-1" for="side-checkbox">
-                    <div class="side-b side-open">Открыть <br> боковую панель</div>
-                    <div class="side-b side-close">Закрыть <br> боковую панель</div>
+                    <div class="side-b side-open" id="side-b"><p class="txt_btn_open_side">Открыть <br> боковую панель</p></div>
+                    <div class="side-b side-close" id="side-b"><p class="txt_btn_open_side">Закрыть <br> боковую панель</p></div>
                 </label>
             </div>
-
-       
-        </nav>
-        <!--
-            <div class="burger">
-            <span class="burger_item">Menu</span>
-        </div>
-    -->
+            
     </div>
     <div class="intro">
         <header class="header" id="header">
@@ -124,7 +147,7 @@
         </ul>
     </div>
     <div class="extra" id="extra">
-        <h2>Дополнительные занятия - время, когда можно обратиться к учителю после уроков:</h2>
+        <h2 class="Hextra">Дополнительные занятия - время, когда можно обратиться к учителю после уроков:</h2>
         <ul class="extra_list">
             <li>Математика -</li>
             <li>Русский/Литература -</li>
@@ -135,7 +158,7 @@
     </div>
 <div class="time_school">
     <div class="timestudy" id="timestudy">
-        <h2>Продолжительность обучения</h2>
+        <h2 class="Hstudy">Продолжительность обучения</h2>
         <p>9 класс - шестидневная учебная неделя</p>
         <table class="study" border="1">
             <tr>
@@ -166,7 +189,7 @@
         </table>
     </div>
     <div class="wkend" id="wkend">
-        <h2>Выходные-каниулы</h2>
+        <h2>Выходные-каникулы</h2>
         <ul class="weekend">
             <li class="weekend">В этом списке будет находиться время каникул (таких, как майские или зимние)</li>
             <li class="weekend"></li>
