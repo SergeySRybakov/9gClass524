@@ -1,4 +1,4 @@
-body {
+body, html {
     background-color: rgb(190, 198, 207);
     /*border: 1px solid rgb(102, 102, 102);
     border-radius: 30px;*/
@@ -112,7 +112,7 @@ button:active, button:focus {
     /*min-width: 160px;*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	float: left;
+    float: left;
 	top: 100%;
 }
 
@@ -192,15 +192,19 @@ button:active, button:focus {
 /* Оформление кнопки на странице */
 .side-button-1-wr {
     text-align: center; /* Контейнер для кнопки, чтобы было удобнее ее разместить */
-    width: 20%;
+    width: 5%;
     height: 40px;
 
-    margin: 0;
-    float: right;
+    display: inline-flex;
+
+    margin-right: 10px;
 /*
     margin-left: 0;
     margin-bottom: 10px;
 */
+}
+.side-button-1 {
+    width: 100%;
 }
 .side-button-1 .side-b {
     margin: 0 auto;
@@ -218,7 +222,7 @@ button:active, button:focus {
     line-height: 13px;
     float: right;
 
-    width: 50%;
+    width: 100%;
     height: 100%;
 
     color: #FFF;
@@ -239,7 +243,7 @@ button:active, button:focus {
     color: #FFF;
     background-color: #6e6e6e;;
 }
-/*
+
 .side-button-1 .side-b:after,
 .side-button-1 .side-b:before {
     position: absolute;
@@ -250,7 +254,7 @@ button:active, button:focus {
     transition: all 280ms ease-in-out;
     width: 0;
 }
-*/
+
 /*
 .side-button-1 .side-open:after,
 .side-button-1 .side-open:before {
@@ -356,7 +360,7 @@ header {
     text-align: center;
     
     color: white;
-    height: 300px;
+    height: 30vh;
     width: auto;
 
     font-style: italic;
@@ -372,6 +376,8 @@ header {
 }
 .intro {
     background-image: url(./img/background9.jpg);
+    width: 100%;
+    height: 35vh;
 }
 
 
@@ -379,7 +385,7 @@ header {
 .news {
     text-align: center;
 
-    margin: 50px 5% 70px 5%;
+    margin: 5vh 5% 6vh 5%;
     padding-bottom: 30px;
 
     border: 1px solid;
@@ -392,51 +398,50 @@ header {
 .st {
     background-color: gray;
 
-    height: 75px;
+    height: 11vh;
     width: 70%;
 
     margin: auto;
     margin-top: 30px;
-    padding-top: 50px;
 
     text-align: center;
     border-radius: 20px;
 }
 .st_text {
     text-align: center;
+    padding-top: 45px;
 }
 .nd {
     background-color: gray;
 
+    height: 11vh;
     width: 70%;
-    height: 75px;
 
     margin: auto;
-    margin-top: 30px; 
-    padding-top: 50px;
+    margin-top: 30px;
 
     text-align: center;
     border-radius: 20px;
 }
 .nd_text {
     text-align: center;
+    padding-top: 45px;
 }
 .rd {
     background-color: gray;
 
+    height: 11vh;
     width: 70%;
-    height: 75px;
 
     margin: auto;
     margin-top: 30px;
-    padding-top: 50px;
 
     text-align: center;
     border-radius: 20px;
-
 }
 .rd_text {
     text-align: center;
+    padding-top: 45px;
 }
 .OT {
     border-color: gray;
@@ -447,7 +452,7 @@ header {
     font-size: 20px;
 }
 .ourteachers_title {
-    margin-left: 100px;
+    margin-left: 6%;
     margin-top: 50px;
     font-size: 30px;
 }
@@ -467,8 +472,8 @@ header {
     border-left: 0;
     border-right: 0;
 
-    padding-bottom: 300px;
-    margin-top: 30px;
+
+    height: 55vh;
 }
 .CT_img_text {
     text-align: center;
@@ -477,6 +482,8 @@ header {
 .CT_block_img {
     padding-left: 5%;
     padding-bottom: 10px;
+
+    height: 45vh;
 }
 .CT_img {
     height: 400px;
@@ -487,13 +494,14 @@ header {
     float: left;
 }
 .CT {
-    margin-left: 30%;
+    text-align: center;
 }
 .CT_text {
     font-size: 20px;
 
-    margin-right: 15%;
-    margin-left: 30%;
+    text-align: center;
+
+    margin-right: 2%;
 }
 .time_school {
     display: flex;
@@ -553,19 +561,23 @@ header {
 }
 
 .about {
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;*/
 
     margin-bottom: 0px;
     padding-bottom: 0;
     margin-top: 0;
     padding-top: 0;
 
+    width: 100%;
+    height: 30vh;
+
 }
 .about_item {
     width: 15%;
     padding-right: 15px;
     padding-left: 15px;
+    display: inline-block;
 }
 .about_item:hover .about_img {
     /*transform: translate3d(5px, -5px, 5px);*/
@@ -767,7 +779,7 @@ footer {
         height: 20%;
     }
 }
-
+/*
 @media (max-width: 799px) {
     .CT {
         margin-left: 58%;
@@ -778,14 +790,14 @@ footer {
     .classroomTeacher {
         padding-bottom: 50px;
     }
-    .side-button-1-wr {
-        height: 50px;
-    }
 }
-
+*/
 @media (max-width: 799px) {
-    body {
+    body, html {
         width: 100%;
+    }
+    header {
+        font-size: 25px;
     }
     .CT_img {
         height: 300px;
@@ -810,6 +822,7 @@ footer {
     }
     .side-button-1-wr {
         width: 25%;
+        height: 50px;
     }
     .CT_img {
         height: 250px;
@@ -833,9 +846,6 @@ footer {
     body {
         width: 100%;
     }
-    .CT {
-        margin-left: 50%;
-    }
     .CT_text {
         margin-left: 50%;
     }
@@ -851,14 +861,29 @@ footer {
     h1 {
         font-size: 40px;
     }
-}
-
-@media (max-width: 600px) {
-    body {
-        width: 100%;
+    .CT_img {
+        height: 23vh;
     }
 }
 
+@media (max-width: 499px) {
+    .CT_text {
+        font-size: 15px;
+    }
+    .CT {
+        font-size: 20px;
+    }
+    .ourteachers {
+        font-size: 12px;
+        margin: 10px 0px 10px 0px;
+        width: 70%;
+    }
+    .ourteachers_title {
+        font-size: 26px;
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+    }
+}
 
 @media (max-width: 399px) {
     body {
@@ -873,8 +898,13 @@ footer {
         font-size: 18px;
     }
     .side-button-1-wr {
-        width: 20%;
+        width: 30%;
         font-size: 5px;
+    }
+    .txt_btn_open_side {
+        text-transform: none;
+        font-weight: normal;
+        font-size: 8px;
     }
     .study {
         font-size: 9px;
@@ -890,17 +920,17 @@ footer {
         width: 100%;
     }
     .CT_img {
-        height: 200px;
+        height: 20vh;
     }
     .CT_block_img {
         font-size: 5px;
     }
     .CT_text {
         font-size: 15px;
-        margin-left: 40%;
     }
     .classroomTeacher {
         font-size: 10px;
+        height: 65vh;
     }
     .ourteachers {
         font-size: 16px;
@@ -917,6 +947,12 @@ footer {
     .bt_colors {
         font-size: 10px;
         width: 70px;
+    }
+    .time_study {
+        width: 49%;
+    }
+    .wkend {
+        width: 49%;
     }
 }
 
@@ -937,5 +973,3 @@ footer {
         width: 100%;
     }
 }
-
-
