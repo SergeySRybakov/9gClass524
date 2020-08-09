@@ -957,17 +957,17 @@ footer {
     .wkend {
         width: 49%;
     }
-}
-
-@media (max-width: 321px) {
-    .galary {
-        height: 55vh;
-    }
     .link_school {
         font-size: 13px;
     }
     .study {
         font-size: 7px;
+    }
+}
+
+@media (max-width: 321px) {
+    .galary {
+        height: 55vh;
     }
     header {
         padding-top: 10px;
