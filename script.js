@@ -61,15 +61,15 @@ $(function() {
 
         if(scrollPos > introH) {
             side_button_wr.classList.add('fixed_btn_SidePanel');
-            document.getElementById('side_button_wr').style.width = '10%';
+            document.getElementById('side_button_wr').style.width = '20%';
             document.getElementById('side-b').style.width = '100%';
         } else {
             
         };
         if(scrollPos < introH) {
             side_button_wr.classList.remove('fixed_btn_SidePanel');
-            document.getElementById('side_button_wr').style.width = '20%';
-            document.getElementById('side-b').style.width = '50%';
+            document.getElementById('side_button_wr').style.width = '10%';
+            document.getElementById('side-b').style.width = '100%';
         } else {
 
         };
