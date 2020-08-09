@@ -1,13 +1,30 @@
 
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
 
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 
 
 
 $(function() {
 
 
-    let pre_introJS = $('#navJS');
     let intro = $('#header');
     let introH;
     let scrollPos = $(window).scrollTop();
@@ -31,7 +48,35 @@ $(function() {
 
 });
 
+$(function() {
 
+
+    let intro = $('#header');
+    let introH;
+    let scrollPos = $(window).scrollTop();
+
+    $(window).on('scroll load resize', function () {
+        introH = intro.innerHeight() + 50;
+        scrollPos = $(this).scrollTop();
+
+        if(scrollPos > introH) {
+            side_button_wr.classList.add('fixed_btn_SidePanel');
+            document.getElementById('side_button_wr').style.width = '10%';
+            document.getElementById('side-b').style.width = '100%';
+        } else {
+            
+        };
+        if(scrollPos < introH) {
+            side_button_wr.classList.remove('fixed_btn_SidePanel');
+            document.getElementById('side_button_wr').style.width = '20%';
+            document.getElementById('side-b').style.width = '50%';
+        } else {
+
+        };
+    
+    });
+
+});
 
 
 
@@ -109,8 +154,5 @@ $('[data-scroll]').on('click', function(event) {
             scrollTop: blockOffset
         }, 500);
 });
-
-
-
 
 
