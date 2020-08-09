@@ -959,6 +959,27 @@ footer {
     }
 }
 
+@media (max-width: 321px) {
+    .galary {
+        height: 55vh;
+    }
+    .link_school {
+        font-size: 13px;
+    }
+    .study {
+        font-size: 7px;
+    }
+    header {
+        padding-top: 10px;
+    }
+    .txt_header {
+        font-size: 20px;
+    }
+    .title_header {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 299px) {
     body {
         width: 100%;
