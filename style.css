@@ -887,6 +887,18 @@ footer {
     header {
         font-size: 25px;
     }
+    .study {
+        font-size: 10.8px;
+    }
+    .Hstudy {
+        font-size: 18px;
+    }
+    .pre {
+        width: 35%;
+    }
+    .about_text {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 399px) {
@@ -920,7 +932,7 @@ footer {
         width: 95%;
     }
     .galary {
-        height: 50vh;
+        height: 35%;
         width: 100%;
     }
     .CT_img {
@@ -968,7 +980,7 @@ footer {
 
 @media (max-width: 321px) {
     .galary {
-        height: 45vh;
+        height: 55vh;
     }
     header {
         padding-top: 10px;
@@ -980,6 +992,12 @@ footer {
         font-size: 30px;
     }
 }
+@media (max-width: 280px) {
+    .Hstudy {
+        font-size: 13px;
+    }
+}
+
 
 @media (max-width: 299px) {
     body {
