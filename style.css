@@ -361,7 +361,9 @@ header {
     text-align: center;
     
     color: black;/*white*/
-    height: 30vh;
+    min-height: 30vh;
+    max-height: 40vh;
+
     width: auto;
 
     font-style: italic;
@@ -809,6 +811,10 @@ footer {
     .galary {
         height: 20%;
     }
+    .btn_href_lessons {
+        width: 80%;
+        height: 40px;
+    }
 }
 /*
 @media (max-width: 799px) {
@@ -829,6 +835,12 @@ footer {
     }
     header {
         font-size: 25px;
+    }
+    .title_header {
+        font-size: 30px;
+    }
+    .txt_header {
+        font-size: 20px;
     }
     .CT_img {
         height: 300px;
@@ -863,7 +875,10 @@ footer {
 	}
 	.nav_list {
 		display: none;
-	}
+    }
+    .container_ul_OT {
+        width: auto;
+    }
 /*
     .side-b {
         text-transform: none; 
@@ -981,12 +996,16 @@ footer {
         font-size: 5px;
     }/*----------------------------------------------------------------------------------------------------------*/
     .CT {
-        font-size: 22px;
         margin-left: 0px;
+        display: flex;
+        font-size: 16px;
     }
     .CT_text {
+        text-transform: none;
+        font-weight: normal;
         font-size: 16px;
         margin-left: 0px;
+        display: inline-block;
     }
     .classroomTeacher {
         font-size: 10px;
@@ -999,7 +1018,7 @@ footer {
         font-size: 18px;
     }
     .Hextra {
-        font-size: 23px;
+        font-size: 20px;
     }
     .ourteachers_title {
         font-size: 25px;
@@ -1024,7 +1043,7 @@ footer {
 
 @media (max-width: 321px) {
     .galary {
-        height: 55vh;
+        height: 30vh;
     }
     header {
         padding-top: 10px;
@@ -1036,7 +1055,8 @@ footer {
         font-size: 30px;
     }
     .CT {
-        font-size: 18px;/*--------------------------------------------------------plus photo in phone------*/
+        
+        /*--------------------------------------------------------plus photo in phone------*/
     }
 }
 @media (max-width: 280px) {
