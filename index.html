@@ -21,28 +21,25 @@
         <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Меню</button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="#news" data-scroll="#news">
+                <a class="btn_dropdown_element" href="#news" data-scroll="#news">
                     Новости
                 </a>
-                <a href="#CT" data-scroll="#CT">
+                <a class="btn_dropdown_element" href="#CT" data-scroll="#CT">
                     Наш классный руководитель
                 </a>
-                <a href="#OT" data-scroll="#OT">
+                <a class="btn_dropdown_element" href="#OT" data-scroll="#OT">
                     Наши учителя
                 </a>
-                <a href="#extra" data-scroll="#extra">
+                <a class="btn_dropdown_element" href="#extra" data-scroll="#extra">
                     Время дополнительных занятий
                 </a>
-                <a href="#galary" data-scroll="#galary">
+                <a class="btn_dropdown_element" href="#galary" data-scroll="#galary">
                     Фото-галерея
                 </a>
             </div>
         </div>
 
-
         <nav class="nav_list" id="nav_listJS">
-
-        
 
             <a href="#news" data-scroll="#news">
                 Новости
@@ -63,15 +60,15 @@
             <a href="#galary" data-scroll="#galary">
                 Фото-галерея
             </a>
-            
+
         </nav>
-        
+
         <!--
             <div class="burger">
             <span class="burger_item">Menu</span>
         </div>
     -->
-   <!--
+        <!--
     <input type="checkbox" id="side-checkbox" />
             <div class="side-panel" id="side-panel">
                 <label class="side-button-2" for="side-checkbox">+</label>
@@ -88,7 +85,7 @@
                     <div class="side-b side-close" id="side-b"><p class="txt_btn_open_side">Закрыть <br> боковую панель</p></div>
                 </label>
             </div>
-            -->
+        -->
     </div>
     <div class="intro">
         <header class="header" id="header">
@@ -122,29 +119,36 @@
         </div>
     </div>
     <div class="OT" id="OT">
-        <h2 class="ourteachers_title" id="OT">Наши учителя</h2>
-        <ul class="ourteachers">
-            <li>Алгебра - Волосатова Ксения Николаевна </li>
-            <li>Биология - Светлова Светлана Владимировна</li>
-            <li>Второй иностранный язык (Французский) - Смирнова Алина Владимировна</li>
-            <li>Второй иностранный язык (Немецкий) - Владелина Гульнара Анверовна</li>
-            <li>География - Карпова Галина Николаевна</li>
-            <li>Геометрия - Волосатова Ксения Николаевна</li>
-            <li>История - Артамонов Дмитрий Алексеевич</li>
-            <li>Иностранный язык 1 - Чебанова Ксения Андреевна</li>
-            <li>Иностранный язык 2 - Дворкина Нелли Вальтеровна</li>
-            <li>Информатика 1 - Кондратьева Ирина Анатольевна</li>
-            <li>Информатика 2 - Некрасова Ольга Александровна</li>
-            <li>Изобразительное искусство - Печерина Светлана Владимировна</li>
-            <li>Литература - Кривцунова Лариса Анатольевна</li>
-            <li>Обществознание - Артамонов Дмитрий Алексеевич</li>
-            <li>Основы безопастности жизнедеятельности - Синицын Андрей Юрьевич</li>
-            <li>Русский язык - Кривцунова Лариса Анатольевна</li>
-            <li>Физика - Бойкова Оксана Александровна</li>
-            <li>Физическая культура - Лазарева Светлана Николаевна</li>
-            <li>Химия - Пяткина Галина Николаевна</li>
-            <li>Черчение - Печерина Светлана Владимировна</li>
-        </ul>
+        <div class="container_ul_OT">
+            <h2 class="ourteachers_title" id="OT">Наши учителя</h2>
+            <ul class="ourteachers">
+                <li>Алгебра - Волосатова Ксения Николаевна </li>
+                <li>Биология - Светлова Светлана Владимировна</li>
+                <li>Второй иностранный язык (Французский) - Смирнова Алина Владимировна</li>
+                <li>Второй иностранный язык (Немецкий) - Владелина Гульнара Анверовна</li>
+                <li>География - Карпова Галина Николаевна</li>
+                <li>Геометрия - Волосатова Ксения Николаевна</li>
+                <li>История - Артамонов Дмитрий Алексеевич</li>
+                <li>Иностранный язык 1 - Чебанова Ксения Андреевна</li>
+                <li>Иностранный язык 2 - Дворкина Нелли Вальтеровна</li>
+                <li>Информатика 1 - Кондратьева Ирина Анатольевна</li>
+                <li>Информатика 2 - Некрасова Ольга Александровна</li>
+                <li>Изобразительное искусство - Печерина Светлана Владимировна</li>
+                <li>Литература - Кривцунова Лариса Анатольевна</li>
+                <li>Обществознание - Артамонов Дмитрий Алексеевич</li>
+                <li>Основы безопастности жизнедеятельности - Синицын Андрей Юрьевич</li>
+                <li>Русский язык - Кривцунова Лариса Анатольевна</li>
+                <li>Физика - Бойкова Оксана Александровна</li>
+                <li>Физическая культура - Лазарева Светлана Николаевна</li>
+                <li>Химия - Пяткина Галина Николаевна</li>
+                <li>Черчение - Печерина Светлана Владимировна</li>
+            </ul>
+        </div>
+        <!--
+        <div class="photo_OT_class">
+            <img class="photo_OT" src="./img/1301590464.jpg" alt="">
+        </div>
+    -->
     </div>
     <div class="extra" id="extra">
         <h2 class="Hextra">Дополнительные занятия - время, когда можно обратиться к учителю после уроков:</h2>
@@ -156,48 +160,53 @@
             <li></li>
         </ul>
     </div>
-<div class="time_school">
-    <div class="timestudy" id="timestudy">
-        <h2 class="Hstudy">Продолжительность обучения</h2>
-        <p>9 класс - шестидневная учебная неделя</p>
-        <table class="study" border="1">
-            <tr>
-                <td>Учебные четверти</td>
-                <td>Начало и окончание четверти</td>
-                <td>Продолжительность</td>
-            </tr>
-            <tr>
-                <td>1ая четверть</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>2ая четверть</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>3я четверть</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>4ая четверть</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
+    <div class="time_school">
+        <div class="timestudy" id="timestudy">
+            <h2 class="Hstudy">Продолжительность обучения</h2>
+            <p>9 класс - шестидневная учебная неделя</p>
+            <table class="study" border="1">
+                <tr>
+                    <td>Учебные четверти</td>
+                    <td>Начало и окончание четверти</td>
+                    <td>Продолжительность</td>
+                </tr>
+                <tr>
+                    <td>1ая четверть</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2ая четверть</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3я четверть</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4ая четверть</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <a href="https://school524.edupage.org/timetable/?">
+            <div class="btn_href_lessons">
+                Расписание уроков
+            </div>
+            </a>
+        </div>
+        <div class="wkend" id="wkend">
+            <h2>Выходные-каникулы</h2>
+            <ul class="weekend">
+                <li class="weekend">В этом списке будет находиться время каникул (таких, как майские или зимние)</li>
+                <li class="weekend"></li>
+                <li class="weekend"></li>
+                <li class="weekend"></li>
+            </ul>
+        </div>
     </div>
-    <div class="wkend" id="wkend">
-        <h2>Выходные-каникулы</h2>
-        <ul class="weekend">
-            <li class="weekend">В этом списке будет находиться время каникул (таких, как майские или зимние)</li>
-            <li class="weekend"></li>
-            <li class="weekend"></li>
-            <li class="weekend"></li>
-        </ul>
-    </div>
-</div>
     <div class="galary" id="galary">
         <h2>Галерея класса</h2>
         <div class="about">
@@ -231,6 +240,10 @@
                 </div>
                 <div class="about_text">5г класс</div>
             </div>
+            <!--
+        </div>
+        <div class="about">
+        -->
             <div class="about_item">
                 <div class="about_img">
                     <a href="./Galary1-8/Galary6.html"><img src="./img/Scan6.jpg" alt=""></a>
@@ -254,13 +267,13 @@
 
 
 
-    
+
 
 
 
     <footer>
 
-       
+
 
         <!--
         <div class="colors" id="colors">
