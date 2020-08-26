@@ -1,5 +1,5 @@
 body, html {
-    background-color: rgb(190, 198, 207);
+    background-color: rgb(190, 198, 207);/*rgb(190, 198, 207)*/
     /*border: 1px solid rgb(102, 102, 102);
     border-radius: 30px;*/
     margin: 0;
@@ -111,7 +111,7 @@ button:active, button:focus {
     color: white;
     /*min-width: 160px;*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+	z-index: 1;
     float: left;
     top: 100%;
     right: 0;
@@ -378,7 +378,7 @@ header {
 .intro {
     background-image: url(./img/background9.jpg);
     width: 100%;
-    height: 45vh;
+    height: 35vh;
 }
 
 
@@ -397,7 +397,7 @@ header {
     text-align: center;
 }
 .st {
-    background-color: gray;
+    background-color: rgb(167, 167, 167);/*gray*/
 
     height: 11vh;
     width: 70%;
@@ -413,7 +413,7 @@ header {
     padding-top: 45px;
 }
 .nd {
-    background-color: gray;
+    background-color: rgb(167, 167, 167);/*gray*/
 
     height: 11vh;
     width: 70%;
@@ -429,7 +429,7 @@ header {
     padding-top: 45px;
 }
 .rd {
-    background-color: gray;
+    background-color: rgb(167, 167, 167);/*gray*/
 
     height: 11vh;
     width: 70%;
@@ -484,7 +484,7 @@ header {
     padding-left: 5%;
     padding-bottom: 10px;
 
-    height: 45vh;
+    height: 80%;
 }
 .CT_img {
     height: 400px;
@@ -551,14 +551,14 @@ header {
     margin-top: 0px;
 
     text-align: center;
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(194, 194, 194);/*rgb(165, 165, 165)*/
 
     border: 2px solid;
-    border-color: gray;
+    border-color: rgb(161, 161, 161);/*gray*/
 
     font-size: 20px;
 
-    height: 55vh;
+    height: 525px;
 }
 
 .about {
@@ -936,19 +936,31 @@ footer {
     .galary {
         height: 35%;
         width: 100%;
+    }/*-------------------------------------------------------------------------------------------*/
+    .CT_img_text {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .CT_img {
         height: 20vh;
+        display: block;
+        margin: 0 auto;
     }
     .CT_block_img {
         font-size: 5px;
+    }/*----------------------------------------------------------------------------------------------------------*/
+    .CT {
+        font-size: 22px;
+        margin-left: 0px;
     }
     .CT_text {
-        font-size: 15px;
+        font-size: 16px;
+        margin-left: 0px;
     }
     .classroomTeacher {
         font-size: 10px;
-        height: 65vh;
+        height: 45vh;
     }
     .ourteachers {
         font-size: 16px;
@@ -993,13 +1005,15 @@ footer {
     .title_header {
         font-size: 30px;
     }
+    .CT {
+        font-size: 18px;/*--------------------------------------------------------plus photo in phone------*/
+    }
 }
 @media (max-width: 280px) {
     .Hstudy {
         font-size: 13px;
     }
 }
-
 
 @media (max-width: 299px) {
     body {
