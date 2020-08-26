@@ -995,7 +995,7 @@ footer {
     .CT_block_img {
         font-size: 5px;
     }/*----------------------------------------------------------------------------------------------------------*/
-    .CT {
+     .CT {
         margin-left: 0px;
         display: flex;
         font-size: 16px;
@@ -1003,13 +1003,13 @@ footer {
     .CT_text {
         text-transform: none;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 12px;
         margin-left: 0px;
         display: inline-block;
     }
     .classroomTeacher {
         font-size: 10px;
-        height: 45vh;
+        height: 60vh;
     }
     .ourteachers {
         font-size: 16px;
